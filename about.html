@@ -20,7 +20,6 @@
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg bg-light fixed-top navbar-light">
         <div class="container-fluid px-5">
             <a class="navbar-brand" href="index.html"><img src="images/home/logo.png"></a>
@@ -45,53 +44,103 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Contact.html">CONTACT US</a>
                     </li> 
-                    </li>
                     <li class="nav-item">
-                        <a class="btn" href="login.html" target="_blank" id="logr">LOGIN/REGISTER</a>
-                        <a href="Shoppingbag.html"><img src=images/home/bag.png></a>
-                    </li> 
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginform" id="logr">Login/Register</a> 
+                        <a href="Shoppingbag.html"><img src=images/home/bag.png id="sbag"></a>
+                    </li>
+                    </li>
                 </ul>
+                </div>
             </div>
+            
         </div>
     </nav> 
+    
+        <div id="loginform" class="modal fade pt-5 mt-5" aria-hidden="true" style="background-color: rgba(0, 0, 0, 0)">
+            <div class="modal-dialog" >
+                <div class="modal-content" style="background-color: #98BCD5">
+                    <div class="modal-header">
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="col my-2">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="name" name="Email" placeholder="my@gmail.com">
+                            </div>
+                            <div class="col my-2">
+                                <label class="form-label">Password</label>
+                                <input class="form-control" type="password" name="Password" placeholder="*********">
+                            </div>
+                            <div class="col my-2">
+                            <button type="btn" class="btn-primary">Submit</button>
+                            </div>
+                            <a href="">Forgot Password?</a>
+                            <p>Don't have an account? <a href="">Register here</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <div class="pagewrapper">
         <section class="about_us">
             <div class="container">
                 <h1>About Yaruki</h1>
-                <div class="row pt-1">
+                <div class="row pt-4">
+                    <div class="col-7">
+                    <img src="images/about/5.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/about/3.jpg" class="img-fluid" id="img2">
+                        </div>
+                <div class="row pt-1"></div>
+                    
                     <div class="col">
-                    <img src="https://picsum.photos/id/233/970/250" class="img-fluid">
-                    <div class="about-text py-5">
+                    <div class="about-text py-3">
                         <p>Behind every successful endeavor are unsuccessful years.</p>
                         <p>Hi there! We're glad you are here. We care so much about your dreams and aspirations that we visualize you to become part of our community. Yes that's right, this site is much more than shirts, this is  a community which aspires to help you make your dreams a reality.</p>
                     </div>
-                    <div class="about-text py-3">
-                    <h3>HOW DID WE START</h3>
+                    <div class="about-text">
+                    <h2>How Did We Start</h2>
                     <p>It all started with a dream. Like you, we are dreamer. One day, this idea just come up, Poof! and here it is. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, vero? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste est quaerat ducimus, assumenda tempora quae iure, architecto quam fuga aliquam possimus dolor voluptatibus eaque eum. </p>
                     </div>  
                     </div>  
                     </div>
-                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 justify-content-evenly g-3">
-                    <div class="col">
-                        <img src="https://picsum.photos/id/235/200/200">
-                    </div>
-                    <div class="col">
-                        <img src="https://picsum.photos/id/236/200/200">
-                    </div>
-                    <div class="col">
-                        <img src="https://picsum.photos/id/250/200/200">
-                    </div>
-                    <div class="col">
-                        <img src="https://picsum.photos/id/238/200/200">
+                    <div class="image-gallery">
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 justify-content-evenly g-4 pt-5">
+                            <div class="col">
+                                <img src="images/about/4.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="images/about/8.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="images/about/6.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="images/about/7.jpg">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="col mt-4 d-flex justify-content-end">
-                            <small>2022 © Eunice.   All rights reserved.</small>
+                <h2 class="h3">Connect With Us</h2>
+                <div class="row justify-content-end">
+                    <div class="col">
+                        <div class="icon">
+                            <a href="https://www.facebook.com"><img src="images/Contact/1.png"></a>
+                            <a href="https://www.instagram.com"><img src="images/Contact/2.png"></a>
+                            <a href="https://www.youtube.com"><img src="images/Contact/3.png"></a>
+                            <a href="https://www.pinterest.com"><img src="images/Contact/4.png"></a>
+                        </div>
+                    </div>
+                    </div>  
+                    <div class="col d-flex justify-content-start">
+                            <small>2022 © Eunice   All rights reserved.</small>
                     </div>
                 </div>
             </div>

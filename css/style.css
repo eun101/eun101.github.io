@@ -36,9 +36,10 @@ h2{
 }
 
 .btn:hover{
-    background-color: white!important;    
+    background-color: #98BCD5!important;    
     color: black!important; 
     font-weight: 600;
+ 
 
     
 }
@@ -55,7 +56,7 @@ h2{
 
 
 .navbar .navbar-brand img{
-    height: 40px;
+    height: 60px;
 
 }
   
@@ -101,6 +102,20 @@ color:black !important;
     height:50px;
 }
 
+.modal-body img{
+    height:100%;
+    justify-content: center;
+}
+
+.modal-body a:hover{
+    color: blue;
+}
+
+.modal-body .btn-primary:hover{
+    background-color: white !important;
+    color:#FCBB06;
+}
+
 /* ############ Navbar Ends ##############*/
 
 
@@ -140,6 +155,10 @@ color:black !important;
 }
 
 
+.banner .btn:hover {
+    border: 1px solid black!important;
+}
+
 
 
 /* #### Banner Ends ####*/
@@ -153,6 +172,8 @@ color:black !important;
     width:100%;
     object-fit: cover;
 }
+
+
 
 
 .carousel-inner img {
@@ -195,16 +216,17 @@ color:black !important;
 
 
 .newcollections h4 {
-    font-size: 12px;
-    padding-bottom: none;
+    font-size: 16px!important;
+    padding-bottom: none!important;
     font-weight: 200;
 }
 
 
 .newcollections .product-bottom h6 {
     color: black;
-    font-weight: 500;
-    
+    font-weight: 600;
+    font-size: 16px!important;
+
 }
 
 .newcollections .productimage img{
@@ -235,9 +257,9 @@ color:black !important;
 
 }
 
-.textover a:hover {
-    color:white;
-}
+
+
+
 
 
 /* ############ Promo Starts ##############*/
@@ -251,19 +273,20 @@ color:black !important;
 }
 
 
-
-
 .promo img{
     height: 50%;
     width: auto;
     float: right;
-
 }
   
  
-
 .promo .btn{
     background-color: white !important;
+}
+
+ 
+.promo .btn:hover{
+background-color: #98BCD5!important;
 }
 
 .promo a{
@@ -295,6 +318,7 @@ color:black !important;
 .btn1:hover{
     color: #FCBB06;
 
+
 }
 
 
@@ -322,21 +346,55 @@ color:black !important;
     justify-content: center;
 }
 
-.aboutYaruki img{
-    height: 80px;   
-}
 
-.aboutYaruki  {
-    background-color: #98BCD5;
-}
 .about_us h1{
     text-align : center ;
 }
 
 .about_us p{
     text-align : justify ;
-
 }
+
+.about_us img{
+
+
+    background-color:#EDE9DA; 
+    overflow: hidden;
+    align-items: center;
+    height:300px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 5% 0 0 5%;
+}
+
+
+#img2{
+background-image: cover;
+background-color: #FCBB06;
+overflow: hidden;
+align-items: center;
+height:300px;
+width:100%;
+object-fit: cover;
+border-radius: 0 5% 5% 0;
+}
+
+.image-gallery img{
+    border-radius: 5%;
+}
+
+
+
+.about_us1 img{
+    background-color:hsl(180, 20%, 95%); 
+    border-radius: 10%;
+    overflow: hidden;
+    align-items: center;
+    width:50%;
+}
+
+    
+
 /* ############ About Us Ends ##############*/
 
 /* ############ Newsletter Starts ##############*/
@@ -356,7 +414,7 @@ color:black !important;
 
 .newsletter a{
     text-decoration: none;
-    color: black;
+    color: black!important;
     font-weight: 500;
 }
 
@@ -370,11 +428,16 @@ color:black !important;
 /* ############ Footer Starts ##############*/
 
 footer{
-    background-color: #FCBB06;
-    height: 50px;
-    margin-top:40px;
+    background-color: #98BCD5;
+    height: 110px;
         
     }
+
+    footer h2 {
+       line-height: 100%;
+    }
+
+   
 
 
 /* ############ Footer Ends ##############*/
@@ -399,7 +462,11 @@ footer{
     z-index: 9099;
 }
 
+.modal-body img{
+    background-color: white;
+   height:100%;
 
+}
 
 /* ############ LoginReg Ends ##############*/
 
@@ -441,6 +508,7 @@ footer{
 .contact .form-label{
     font-size: 14px;
     font-weight: 500;
+    text-align: left;
 }
 
 .contact select{
@@ -449,6 +517,19 @@ footer{
 
 .contact .row{
     justify-content: center;
+}
+
+.icon img{
+    height: 20px;
+}
+
+.contact img{
+    background-color:#EDE9DA; 
+    overflow: hidden;
+    align-items: center;
+    height:300px;
+    width:100%;
+    object-fit: cover;
 }
 
 /* ############ Contact Us Ends ##############*/
@@ -557,13 +638,22 @@ nav{
         padding: 10px;
         color: white;
         text-align: center;
-        background: #98BCD5;
+        background: #FCBB06;
 
+    }
+
+    .textover a:hover {
+        color:white;
+     
     }
         .textover a {
         text-decoration: none !important;
         color: black;
-    }
+        }
+
+
+
+
 
     figcaption{
         opacity: 0;
@@ -571,15 +661,11 @@ nav{
 
     figcaption:hover{
         opacity: 1;
-        color: #fcbb06!important;
         font-weight: 500;
+   
     }
 
-    .product-top:hover{
-        opacity: 1;
-        color: #fcbb06!important;
-        font-weight: 500;
-    }
+
 
 
 
